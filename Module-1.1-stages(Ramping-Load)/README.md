@@ -2,7 +2,6 @@
 
 In real-world performance tests, traffic doesn't usually jump instantly to max users. We ramp up and down VUs over time using stages.
 
-## 1. Theory
 
 **Stages** = Array of objects `{ duration, target }`  
 - `duration` → How long to stay in this stage  
